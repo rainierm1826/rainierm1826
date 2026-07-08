@@ -30,12 +30,18 @@ A web app that helps businesses manage appointments, branches, services, staff, 
 - Role-based access for customers, admins, and owners
 - Scikit-learn for prediction models, deployed on a Hostinger VPS with Flowise integration
 
+**Procurement Monitoring System** — Full-Stack & Lead Developer
+A web-based procurement monitoring system developed during my internship at DICT to track procurement projects and streamline project oversight.
+- Implemented dynamic role-based access control with different permissions for administrators and staff
+- Developed an analytics dashboard with real-time procurement and project monitoring insights
+- Built features for managing procurement projects, tracking progress, and monitoring project status throughout the procurement lifecycle
+
 **GrocerEase** — Full-Stack & Lead Developer
 An online store with role-based access and OAuth login.
 - Customers browse products, add to cart, and place orders
 - Admin dashboard for managing products, orders, and sales reports via Recharts
 - Frontend deployed on Vercel, backend on Render
-
+  
 ---
 
 ### 🛠️ Tech Stack
