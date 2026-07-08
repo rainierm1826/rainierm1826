@@ -23,14 +23,14 @@ Motivated and detail-oriented full-stack developer experienced in building scala
 
 ### 🚀 Featured Projects
 
-**[AI-Powered Appointment Management System](https://rainier-portfolio.vercel.app)** — Full-Stack & Lead Developer
+**AI-Powered Appointment Management System** — Full-Stack & Lead Developer
 A web app that helps businesses manage appointments, branches, services, staff, and vouchers.
 - AI-powered customer service and predictive analytics using machine learning
 - Sales and appointment dashboards built with Recharts
 - Role-based access for customers, admins, and owners
 - Scikit-learn for prediction models, deployed on a Hostinger VPS with Flowise integration
 
-**E-Commerce Website** — Full-Stack & Lead Developer
+**GrocerEase** — Full-Stack & Lead Developer
 An online store with role-based access and OAuth login.
 - Customers browse products, add to cart, and place orders
 - Admin dashboard for managing products, orders, and sales reports via Recharts
