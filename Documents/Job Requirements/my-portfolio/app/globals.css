@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --background: #07111f;
+  --foreground: #e7edf7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  color-scheme: dark;
+  background: #07111f;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(45, 212, 191, 0.14),
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(96, 165, 250, 0.12),
+      transparent 28%
+    ),
+    linear-gradient(180deg, #08111f 0%, #07111f 46%, #050b16 100%);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+section {
+  scroll-margin-top: 6.5rem;
+}
+
+::selection {
+  background: rgba(94, 234, 212, 0.24);
+  color: #f8fafc;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid rgba(94, 234, 212, 0.85);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
